@@ -16,7 +16,7 @@ public class WicketKeeperCountTest extends BaseTest_TestNG{
 		test.log(LogStatus.INFO, "Load the following JSON File "+globalProp.getProperty("JSONFilePath"));
 		JSONObject jsonObject = reusableComponents.loadJSONFile(file.getCanonicalPath()+globalProp.getProperty("JSONFilePath"));
 		test.log(LogStatus.INFO, "Validation for Wicket Keeper count starts");
-		reusableComponents.validateWKCountTest(jsonObject,test,"WK");
+		reusableComponents.validateWKCountTest(jsonObject,test,"Wicket-keeper");
 		test.log(LogStatus.INFO, "Validation for Wicket Keeper count ends");
 	}
 }
