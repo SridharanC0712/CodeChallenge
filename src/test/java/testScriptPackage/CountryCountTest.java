@@ -14,7 +14,7 @@ public class CountryCountTest extends BaseTest_TestNG{
 		test.log(LogStatus.INFO, "Load the following JSON File "+globalProp.getProperty("JSONFilePath"));
 		JSONObject jsonObject = reusableComponents.loadJSONFile(file.getCanonicalPath()+globalProp.getProperty("JSONFilePath"));
 		test.log(LogStatus.INFO, "Validation for International player count starts");
-		reusableComponents.validateCountryCountTest(jsonObject,test,"IND");
+		reusableComponents.validateCountryCountTest(jsonObject,test,"India");
 		test.log(LogStatus.INFO, "Validation for International player count ends");
 	}
 
