@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Code Challenge test Suite" duration-ms="579" started-at="2022-09-14T15:17:05Z" finished-at="2022-09-14T15:17:06Z">
+    <groups>
+    </groups>
+    <test name="Code Challenge test" duration-ms="579" started-at="2022-09-14T15:17:05Z" finished-at="2022-09-14T15:17:06Z">
+      <class name="testScriptPackage.CountryCountTest">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:testScriptPackage.CountryCountTest@6d78f375]" name="startTest" is-config="true" duration-ms="187" started-at="2022-09-14T20:47:05Z" finished-at="2022-09-14T20:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="countryCountTest()[pri:0, instance:testScriptPackage.CountryCountTest@6d78f375]" name="countryCountTest" duration-ms="15" started-at="2022-09-14T20:47:05Z" finished-at="2022-09-14T20:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryCountTest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testScriptPackage.CountryCountTest@6d78f375]" name="endTest" is-config="true" duration-ms="262" started-at="2022-09-14T20:47:05Z" finished-at="2022-09-14T20:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testScriptPackage.CountryCountTest -->
+      <class name="testScriptPackage.WicketKeeperCountTest">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:testScriptPackage.WicketKeeperCountTest@50c87b21]" name="startTest" is-config="true" duration-ms="2" started-at="2022-09-14T20:47:06Z" finished-at="2022-09-14T20:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="wicketKeeperCountTest()[pri:0, instance:testScriptPackage.WicketKeeperCountTest@50c87b21]" name="wicketKeeperCountTest" duration-ms="1" started-at="2022-09-14T20:47:06Z" finished-at="2022-09-14T20:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wicketKeeperCountTest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testScriptPackage.WicketKeeperCountTest@50c87b21]" name="endTest" is-config="true" duration-ms="89" started-at="2022-09-14T20:47:06Z" finished-at="2022-09-14T20:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testScriptPackage.WicketKeeperCountTest -->
+    </test> <!-- Code Challenge test -->
+  </suite> <!-- Code Challenge test Suite -->
+</testng-results>

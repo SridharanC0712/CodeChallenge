@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Code Challenge test Suite" thread-count="2">
+   <test name = "Code Challenge test">
+      <classes>
+         <class name = "testScriptPackage.CountryCountTest" />
+         <class name = "testScriptPackage.WicketKeeperCountTest" />
+      </classes>
+   </test>
+   
+</suite>
